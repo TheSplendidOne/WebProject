@@ -1,0 +1,94 @@
+.default-font {
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+  /* font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif; */
+}
+
+.header-content {
+  padding: 15px;
+  background-color: white;
+}
+
+.header-label {
+  margin: 0px 15px;
+  cursor: pointer;
+}
+
+.header-item {
+  margin: 5px 15px;
+  cursor: pointer;
+}
+
+.bg-img {
+  background: url(../images/main.png);
+  background-size: cover;
+}
+
+.info-block {
+  border-radius: 15px;
+  background-color: white;
+  min-width: 100%;
+}
+
+.select-bg {
+  background-color: #aed57c;
+}
+
+.select-info-block {
+  margin: 200px 0;
+}
+
+.section-inner {
+  padding: 10px 20px;
+}
+
+.btn-block {
+  background-color: #0fa7b7;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 15px;
+  text-align: center;
+  font-size: large;
+  cursor: pointer;
+}
+
+.select-btn {
+  padding: 5px 10px;
+  font-size: small;
+}
+
+.presentation-block {
+  margin: 100px 0;
+}
+
+.presentation-img {
+  max-width: 100%;
+  border-radius: 15px;
+}
+
+.comments-bg {
+  background-color: #e8f3f9;
+}
+
+.comments-block {
+  margin: 50px 0;
+}
+
+.comment-block {
+  background-color: #f0efed;
+  max-width: 70%;
+  min-width: 40%;
+  margin: 10px 5px;
+}
+
+.comment-item {
+  width: 100%;
+}
+
+.comments-inner-block {
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  margin-top: 64px;
+}
