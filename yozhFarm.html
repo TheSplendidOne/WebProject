@@ -6,6 +6,7 @@
     <meta name="description" content="Web-programming project">
     <link rel="stylesheet" href="css/styles.css" />
     <link rel="stylesheet" href="css/bootstrap/css/bootstrap.min.css">
+    <script src="js/script.js"></script>
     <title>Купи ежа</title>
   </head>
   <body class="default-font">
@@ -67,17 +68,17 @@
                 <div class="container-fluid">
                   <div class="row">
                     <div class="col">
-                      <div class="btn-block select-btn">
+                      <div class="btn-block select-btn" id="YOZH_BUTTON" onclick="YOZH()">
                         YOZH
                       </div>
                     </div>
                     <div class="col">
-                      <div class="btn-block select-btn">
+                      <div class="btn-block select-btn" id="YOZH_PRO_BUTTON" onclick="YOZH_PRO()">
                         YOZH PRO
                       </div>
                     </div>
                     <div class="col">
-                      <div class="btn-block select-btn">
+                      <div class="btn-block select-btn" id="YOZH_PRO_MAX_BUTTON" onclick="YOZH_PRO_MAX()">
                         YOZH PRO MAX
                       </div>
                     </div>
@@ -91,7 +92,7 @@
           <div class="col">
             <div class="info-block presentation-block">
               <div class="section-inner">
-                <img class="presentation-img" src="./images/yozh.jpg"></img>
+                <img class="presentation-img" src="./images/yozh.jpg" id="YOZH_img"></img>
               </div>
             </div>
           </div>
