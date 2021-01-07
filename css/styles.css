@@ -20,7 +20,7 @@
 }
 
 .bg-img {
-  background: url(../images/main.png);
+  background: url(../images/main.jpg);
   background-size: cover;
 }
 
@@ -32,11 +32,11 @@
 }
 
 .select-bg {
-  background-color: #aed57c;
+  background-color: #E39CBA;
 }
 
 .select-info-block {
-  margin: 200px 0;
+  margin: 300px 0 200px 0;
 }
 
 .section-inner {
@@ -84,11 +84,15 @@
 }
 
 .special-bg {
-  background-color: #e87e68;
+  background-color: #ff9273;
 }
 
 .buy-bg {
-  background-color: #d4c5cf;
+  background-color: #ffd073;
+}
+
+.footer-content {
+  padding: 10px 0px;
 }
 
 main {
