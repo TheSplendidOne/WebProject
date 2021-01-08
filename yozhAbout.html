@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta name="authors" content="Sinichenko Konstantin / Votinov Kirill / Gevorkyan Georgiy"/>
+    <meta name="description" content="Web-programming project"/>
+    <link rel="stylesheet" href="css/styles.css"/>
+    <link rel="stylesheet" href="css/bootstrap/css/bootstrap.min.css"/>
+    <script src="js/script.js"></script>
+    <title>О продукте</title>
+  </head>
+  <body class="default-font">
+    <header>
+      <div class="container-fluid header-content fixed-top">
+        <div class="row">
+          <div class="col-md-1">
+          </div>
+          <div class="col">
+            <h3 class="float-left header-label"><a href="yozhFarm.html">Твой ёж</a></h3>
+          </div>
+          <div class="col">
+            <div class="float-right header-item">
+              <a href="yozhAbout.html">О продукте</a>
+            </div>
+            <div class="float-right header-item">
+              Купи ежа
+            </div>
+          </div>
+          <div class="col-md-1">
+          </div>
+        </div>
+      </div>
+    </header>
+    <main>
+      <div class="container-fluid">
+        <div class="row comments-bg">
+          <div class="col-md-1">
+          </div>
+          <div class="col-md-5 about-col">
+            <div class="info-block">
+              <div class="section-inner">
+                <h2>О нас</h2>
+                <p>
+                  Отличная продукция. Заказал YOZH PRO три дня назад, привезли уже на следующий день.<br>
+                  Ёж полностью совпадает с заказанным мною - белый цвет, мягкие лапки.<br>
+                  Работает отлично, кушает, фыркает, всё как надо. Никаких неполадок не заметил.<br>
+                  Дочка просто светится от радости, теперь думаю подарить такого же жене.<br>
+                  Всем советую.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-5 about-col">
+            <div class="info-block">
+              <div class="section-inner">
+                <h2>Почему наши ежи лучшие?</h2>
+                <ul>
+                 <li>Самые мягкие</li>
+                 <li>Самые большие</li>
+                 <li>Самые энергосберегающие</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-1">
+          </div>
+        </div>
+        <div class="row special-bg">
+          <div class="col-md-2">
+          </div>
+          <div class="col">
+            <div class="info-block">
+              <div class="section-inner">
+                <h2 class="text-center">Наши ёжики</h2>
+                <div class="img-container">
+                  <img class="galery-img-small" onclick="show_galery(0)" src="images/main.jpg">
+                  <img class="galery-img-small" onclick="show_galery(1)" src="images/yozh.jpg">
+                  <img class="galery-img-small" onclick="show_galery(2)" src="images/yozhPro.jpg">
+                  <img class="galery-img-small" onclick="show_galery(3)" src="images/yozhProMax.jpg">
+                  <img class="galery-img-small" onclick="show_galery(4)" src="images/yozh_0.jpg">
+                  <img class="galery-img-small" onclick="show_galery(5)" src="images/yozh_1.jpg">
+                </div>
+                <div class="modal" id="galery">
+                  <div class="galery-content">
+                    <span class="close-modal-window" onclick="close_onclick(`galery`)">&times;</span>
+                    <div class="container-fluid">
+                      <div class="row">
+                        <div class="col-md-1">
+                          <b class="galery-btm" onclick="left_arrow()">&lt;</b>
+                        </div>
+                        <div class="col-md-10">
+                          <img class="galery-img-big" src="static/mount1.jpg" id="galery_img"/>
+                        </div>
+                        <div class="col-md-1">
+                          <b class="galery-btm" onclick="right_arrow()">&gt;</b>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-2">
+          </div>
+        </div>
+        <div class="row buy-bg">
+          <div class="col-md-4">
+          </div>
+          <div class="col">
+            <div class="info-block">
+              <div class="section-inner">
+                <h2 class="text-center">Чего же ты ждёшь?</h2>
+                <div class="btn-block">
+                  Закажи ежа прямо сейчас!
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer class="footer-wrapper">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-1">
+          </div>
+          <div class="col">
+            <div class="footer-content">
+              Дизайн студии синеголового орлана
+            </div>
+          </div>
+          <div class="col-md-1">
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
