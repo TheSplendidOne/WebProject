@@ -178,3 +178,21 @@ a {
 main {
   margin-top: 64px;
 }
+
+
+.bg-hedgehog {
+  background: url(../images/yozh.jpg);
+  background-size: cover;
+}
+
+.p_contacts {
+  margin-left:15px;
+}
+.select_contacts {
+  width: 357px;
+}
+
+.contact-block {
+  max-height: 78%;
+  min-height: 78%;
+}

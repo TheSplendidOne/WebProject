@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+    <meta content="Sinichenko Konstantin / Votinov Kirill / Gevorkian George" name="authors">
+    <meta content="Web-programming project" name="description">
+    <link href="css/styles.css" rel="stylesheet"/>
+    <link href="css/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <title>Контакты</title>
+</head>
+<body>
+<header>
+    <div class="container-fluid header-content fixed-top">
+        <div class="row">
+            <div class="col-md-1">
+            </div>
+            <div class="col">
+                <h3 class="float-left header-label"><a href="yozhFarm.html">Твой ёж</a></h3>
+            </div>
+            <div class="col">
+                <div class="float-right header-item">
+                    <a href="yozhAbout.html">О продукте</a>
+                </div>
+                <div class="float-right header-item">
+                    Купи ежа
+                </div>
+            </div>
+            <div class="col-md-1">
+            </div>
+        </div>
+    </div>
+</header>
+<main class="bg-hedgehog">
+    <div class="container-fluid ">
+        <div class="row">
+            <div class="col-md-1"></div>
+            <div class="col">
+
+                <div class="info-block contact-block">
+                    <div  class="section-inner">
+                        <h1>Контакты</h1>
+                    </div>
+                    <div class="section-inner">
+                        <div class="row-md-1">
+                            <div><i aria-hidden="true" class="fa fa-envelope"></i></div>
+                            <h2>Email</h2>
+                            <p class = "p_contacts"><a href="mailto: zakaz@ej.ru">zakaz@ej.ru</a></p>
+                        </div>
+                        <div class="row-md-2">
+                            <h2>Телефон</h2>
+                            <p class = "p_contacts"><a href="tel: 8800553535">8 800 55 35 35</a></p>
+                            <p class = "p_contacts"><a href="tel: +777777777">7 777 77 77 77</a></p>
+                        </div>
+                        <div class="row-md-1">
+                            <h2>График работы</h2>
+                            <p class = "p_contacts"><span>Каждый день с 10:00 до 21:00</span></p>
+                        </div>
+                        <div class="row-md-2">
+                            <h2>Социальные сети</h2>
+                            <p class = "p_contacts">
+                                <a href="https://vk.com/kupieja/"><img alt="Контакты" src="images/VK_Logo.png"></a>
+                                <a href="https://www.instagram.com/kupieja/"><img alt="Контакты" src="images/instagram_logo.png"></a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-1"></div>
+            <div class="col">
+                <div class="info-block contact-block">
+                    <div  class="section-inner">
+                        <h1>Сделать заказ</h1>
+                    </div>
+                    <div class="section-inner" dir="ltr" lang="ru-RU" role="form">
+                        <form method="post" novalidate="novalidate">
+                            <p>
+                                <input class="user-name" name="user-name"
+                                       placeholder="Ваше имя (обязательно)"
+                                       size="45" type="text" value="">
+                            </p>
+                            <p>
+                                <input class="user-tel" name="user-tel"
+                                       placeholder="Ваш Телефон (обязательно)"
+                                       size="45" type="tel"
+                                       value="">
+                            </p>
+                            <p>
+                                <input class="your-email" name="your-email"
+                                       placeholder="Ваш e-mail" size="45"
+                                       type="email" value="">
+                            </p>
+                            <p>
+                                <select class="select_contacts" name="ListOfHedgehogs">
+                                    <option disabled>Выберите вид вашего будущего ежика, которого хотите заказать</option>
+                                    <option value="YOZH">YOZH</option>
+                                    <option selected value="YOZH_PRO">YOZH PRO</option>
+                                    <option value="YOZH_PRO_MAX">YOZH PRO MAX</option>
+                                </select>
+                            </p>
+                            <p>
+                                <select class="select_contacts" name="ColorOfHedgehog">
+                                    <option disabled>Выберите цвет вашего будущего ежика</option>
+                                    <option value="Red">Красный цвет</option>
+                                    <option selected value="Nature">Оставить без изменений(Природный цвет)</option>
+                                    <option value="Yellow">Желтый цвет</option>
+                                    <option value="Black">Черный цвет</option>
+                                    <option value="White">Белый цвет</option>
+                                </select>
+                            </p>
+                            <p>
+                                <input aria-invalid="false" name="address" placeholder="Адрес доставки" size="45" value="">
+                            </p>
+                            <p>
+                                <textarea aria-invalid="false"
+                                          cols="20"
+                                          name="your-message" placeholder="Ваше пожелания"
+                                          rows="5"></textarea>
+                            </p>
+                            <p>
+                                <input class="submit" type="submit" value="Отправить">
+                            </p>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-1 "></div>
+        </div>
+    </div>
+</main>
+</body>
+</html>
