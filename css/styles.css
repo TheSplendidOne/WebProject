@@ -184,10 +184,7 @@ main {
   background: url(../images/yozh.jpg);
   background-size: cover;
 }
-.bg-hedgehog1 {
-  background-color: #ffbfca;
-  background-size: cover;
-}
+
 .p_contacts {
   margin-left:15px;
 }
@@ -198,4 +195,41 @@ main {
 .contact-block {
   max-height: 78%;
   min-height: 78%;
+}
+
+.fixed_button_mail:hover{
+  opacity: 1;
+  background: rgb(100, 110, 121);
+}
+
+.fixed_button_up:hover{
+  opacity: 1;
+  background: rgb(100, 110, 121);
+}
+.fixed_buttons {
+  position: fixed;
+  right: 50px;
+  bottom: 50px;
+}
+.fixed_button_up {
+  margin-left: 10px;
+  background: rgb(100, 110, 121);
+  opacity: 0.6;
+  z-index: 1;
+  cursor: pointer;
+  border-radius: 25px;
+  padding: 16px;
+  font-weight: bold;
+  text-align: center;
+}
+.fixed_button_mail {
+  margin-left: 10px;
+  background: rgb(100, 110, 121);
+  opacity: 0.6;
+  z-index: 1;
+  cursor: pointer;
+  border-radius: 25px;
+  padding: 16px 10px 16px 12px;
+  font-weight: bold;
+  text-align: center;
 }
