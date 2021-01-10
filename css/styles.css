@@ -184,7 +184,10 @@ main {
   background: url(../images/yozh.jpg);
   background-size: cover;
 }
-
+.bg-hedgehog1 {
+  background-color: #ffbfca;
+  background-size: cover;
+}
 .p_contacts {
   margin-left:15px;
 }
