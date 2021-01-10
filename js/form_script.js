@@ -1,10 +1,3 @@
-const makeLog = (name, descr) => (
-    new Map([
-        ['name', name],
-        ['descr', descr],
-    ])
-);
-
 function send() {
   var name = document.getElementById('name').value;
   var tel = document.getElementById('tel').value;
