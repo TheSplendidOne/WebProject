@@ -9,7 +9,6 @@
 
 .default-font {
   font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
-  /* font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif; */
 }
 
 .header-content {
@@ -170,6 +169,18 @@
   cursor: pointer;
 }
 
+.contact-item {
+	margin: 15px 10px;
+}
+
+.contact-content {
+	margin: 5px 10px 0px;
+}
+
+.form-item {
+	width: 350px;
+}
+
 a {
 	color: #212529 !important;
 	text-decoration: none !important;
@@ -177,25 +188,4 @@ a {
 
 main {
   margin-top: 64px;
-}
-
-
-.bg-hedgehog {
-  background: url(../images/yozh.jpg);
-  background-size: cover;
-}
-.bg-hedgehog1 {
-  background-color: #ffbfca;
-  background-size: cover;
-}
-.p_contacts {
-  margin-left:15px;
-}
-.select_contacts {
-  width: 357px;
-}
-
-.contact-block {
-  max-height: 78%;
-  min-height: 78%;
 }
