@@ -181,6 +181,46 @@
 	width: 350px;
 }
 
+.fixed-button-mail:hover{
+  opacity: 1;
+  background: rgb(100, 110, 121);
+}
+
+.fixed-button-up:hover{
+  opacity: 1;
+  background: rgb(100, 110, 121);
+}
+
+.fixed-buttons {
+  position: fixed;
+  right: 50px;
+  bottom: 50px;
+}
+
+.fixed-button-up {
+  margin-left: 10px;
+  background: rgb(100, 110, 121);
+  opacity: 0.6;
+  z-index: 1;
+  cursor: pointer;
+  border-radius: 25px;
+  padding: 16px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.fixed-button-mail {
+  margin-left: 10px;
+  background: rgb(100, 110, 121);
+  opacity: 0.6;
+  z-index: 1;
+  cursor: pointer;
+  border-radius: 25px;
+  padding: 16px 10px 16px 12px;
+  font-weight: bold;
+  text-align: center;
+}
+
 a {
 	color: #212529 !important;
 	text-decoration: none !important;
